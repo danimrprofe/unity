@@ -17,20 +17,29 @@ Dentro de nuestra ventana lo que vamos a hacer es clic derecho y darle a judíos
 ## Cambiar resolución
 
 Para evitar esto vamosa hacer vamos a poner una resolución quees la típica que se utiliza en pantallas que es la 16:9 que está se adapta muy bien pues ahora que es 1080 720 dos cada4 acá en ese caso que es la resolucióneste vertical y horizontal porquemantiene un aspecto de relación quecuadra en ese sentido entonces cuandocomo veis si yo creo a 18 y pongo estoen la posición de y a 4.5 queda perfectoahí en su posición de hecho es lo quevoy a hacer es ponerlo a 5 ya poner unpoco más arriba a mí me gusta más que sevea pero que tampoco me ocupe pues media pantalla esa pared perfecto 
-Ahora lo que vamos a hacer es en vez de crear otro objeto nuevo es duplicar este que tenemos y ponerlo pues abajo del todo para ello pues lo que podéis hacer es control de o clic derecho duplicate se duplicará y ahora lo único que tenemos que hacer es en vez de ir arrastrando lo va a estar en la posición contraria a 5 en este caso pues sería menos 5 a esta 
+
+Ahora lo que vamos a hacer es en vez de crear otro objeto nuevo es **duplicar**s este que tenemos y ponerlo pues abajo del todo para ello pues lo que podéis hacer es **Ctrl+D** o clic derecho duplicate se duplicará y ahora lo único que tenemos que hacer es en vez de ir arrastrando lo va a estar en la posición contraria a 5 en este caso pues sería - 5.
 
 ## Paredes de los lados
 
 Ya tengo los dos colocados perfectamente ahora vamosa crear las paredes de los datos para ello pues igual voy a este objeto voy a duplicarlo y ahora lo que pasa esque mi escala en el eje x no va a ser sino que va a ser en el eje y entonces en este caso puedo dejar la escala en el eje x a1 y la escala en el eje y a 10 así pues me quedara más o menos de una manera decente para moveros dentro de la escena si pasáis lo que sería la rueda del ratón en el medio pues lo podéis hacer una especie de paneo también bueno comentaros que si a lo mejor no sabe mucho de unity tampoco estudian en este tutorial yendo muy lentamente en ese sentido así que pues tengo una serie específico de juniti desde principio que os dejaré bleeckere en la descripción y una tarjetita pues si queréis empezar por ahí comentó que este tutorial pues no va a ser muy complicado así que si os vais que podéis ir tranquilamente con el tutorial pues ánimo a heidi y a tope vale hemos creado esta pared 
+
 Ahora lo que quedaría es ponerlo a la derecha y ala izquierda entonces en este caso lo que vamos a hacer es poner en la posición de y a 0 y aquí vamos a modificar la posición en el eje x en este caso la podemos poner por ejemplo en ocho y más o menos vemos que se queda cerca de lo que sería pero estas paredes no se tienen que ver tienen que estar por la parte de fuera 
+
 Vamos a colocar pues por ejemplo ahí lo quesería pues yo creo que el nueve y medio va bien estas paredes van a ser diferentes a esta nueva entre colisión en el hecho de que no van a hacer que rebote la pelota sino que cuando colisionan con esta pared va a ser como la portería de un jugador o del otro y entonces pues se añadirá un punto cuando colisiones perfecto ahora entonces con esto que tenemos aquí podemos duplicarlo y ponerlo en el lado contrario que simplemente poniéndole un negativo en el9 menos 5 o sea en el 9,5 pues se pondrá justo en el otro lado 
-Nombrando los objetos
-Ahora importante nombrar las cosas porque vamos a empezara tener aquí 80 objetos y nos vamos a saber que es ninguno y luego la hora de programar pues vamos a tener un quebradero de cabeza 
-Para ordenar esto un poco vamosa seleccionar esta pared y hacéis doble clic o con F2 podéis nombrar lo íbamos a llamarle en goal1 porque va a ser la portería en la que tiene que colar el jugador 1 que va a estar a nuestra izquierda esto es pues si simplemente ha venido a organizarse que tengo para luego programar pero bueno pues sólo podéis nombrar como queráis como si queréis llamar de portería del número 1 o algo del estilo o portería del 2 pero luego acordaros de que hay que hacer pues seleccionar esa portería para que cuando cual el otro se suma un punto no sé qué bueno abriremos viendo tranquilamente así que no creo que preocupéis entonces 
+
+## Nombrando los objetos
+
+Ahora importante nombrar las cosas. Para ordenar esto un poco vamosa seleccionar esta pared y hacéis doble clic o con F2 podéis nombrar. Vamos a llamarle en goal1 porque va a ser la portería en la que tiene que colar el jugador 1 que va a estar a nuestra izquierda esto es pues si simplemente ha venido a organizarse que tengo para luego programar pero bueno pues sólo podéis nombrar como queráis como si queréis llamar de portería del número 1 o algo del estilo o portería del 2 pero luego acordaros de que hay que hacer pues seleccionar esa portería para que cuando cual el otro se suma un punto no sé qué bueno abriremos viendo tranquilamente así que no creo que preocupéis entonces 
+
 Este otro lado de la izquierda pues sería goal2 adiós con lage mayúscula perfecto porque íbamos a pasar a hacerla línea del centro un poco para que sepamos cuál es el centro todo lo que puedes hacer es duplicar un gol que tenéis vosotros aquí colocado en la posición 0 0 y ahora es reducir un poco la escala en el eje x podéis reducir la escala también pulsando la r teniendo seleccionado huevas y entonces sancionando vuestro jugador y pulsando deseos pondrá aquí lo que sería el ritmo de escala que es lo que tenéis aquí arriba mismo de movimiento rotación escala y luego otro raro que tienen por aquí que es de escala rotación movimiento todo y vamos para ir a colom seleccionar es el de rotación y vamos a reducir esto como es si yo cojo lo quees el eje rojo y lo reduzco o el aumento pues ese aumento se reduce y se ve reflejado en la escala aquí en x vamos a colocarlo a 0 con 2 creo yo creo que ahí va guay 
+
 ## Creando los jugadores
+
 Vamos a crear los players entonces vamos a hacer control de sobre ese amigo aquí de la derecha lo voy a arrastrar a esta posición que de hecho lo vamos a poner en la posición 8 y ahora hay que reducir la escala. Así imaginaros que vuestro player es así de grande en 3 cuando venga la bola va a rebotar sí o sí qué gracia tiene estejuego por ninguna 
+
 ## Crear jugador 2
+
 Vamos a reducirlo unpoco a lo que sería en el eje y a 2.5 luego pues podemos modificar elmovimiento de la velocidad de la bolapodemos modificar muchas cosas pues paraque se adapte a lo que cada uno puesesté buscando en este caso como está ala derecha pues lo llamaremos player2.
 
 ## Crear jugador 1
@@ -39,11 +48,11 @@ Ahora **Ctrl+D** y duplicamos y lo llevamos a la posición contraria que sería 
 
 Ahora lo único que ayudaría sería pues nuestra pelota del medio así que podemos hacer directamente clic derecho dentro de nuestro unit y su día dietsprite square y si la colocamos en el 0,0.
 
-Para poder diferenciar lo mejor vamos a cambiarle el color y esto lo podéis hacer con todos los objetos en verdad que tengáis en la escena como veis son de tipo sprite renderer por tanto si lo seleccionas podéis modificar aquí el color con lo que tenéis a la derecha.
+Para poder diferenciar lo mejor vamos a cambiarle el color y esto lo podéis hacer con todos los objetos en verdad que tengáis en la escena como veis son de tipo **sprite renderer** por tanto si lo seleccionas podéis modificar aquí el color con lo que tenéis a la derecha.
 
 Yo lo puedo poner pues este color amarillento a la pelota y sin soluciones cualquier otro por ejemplo podéis solucionar asaco y mirar puedo modificar pues todo el mapa en sí de hecho lo vamos a hacer voy a seleccionar el goal escuela y demás y lo vamos a poner en un tono rojizo 
 
-Ahora podéis seleccionar vuestro player2 le ponéis otro color. Voy a ponerle un tono verdoso lo mejor paraje verde parece que es como otro no puedo colocar creo que voy a dejar blanco me está gustando más blanco lo voy a dejarblanco los dos pero bueno: 
+Ahora podéis seleccionar vuestro **player2** le ponéis otro color. 
 
 ## Colisiones
 
